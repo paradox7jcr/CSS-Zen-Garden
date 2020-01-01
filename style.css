@@ -1,0 +1,294 @@
+﻿
+
+/*#region Fonts*/
+@font-face {
+  font-family: PPETRIAL;
+  src: url(fonts/PPETRIAL.otf);
+}
+
+@font-face {
+  font-family: FineCollege;
+  src: url(fonts/FineCollege.ttf);
+}
+/*#endregion*/
+
+/*#region GENERAL TAG SELECTORS*/
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+abbr {
+  text-decoration: none;
+}
+
+a {
+  color: #DA8759;
+}
+/*#endregion*/
+
+/*#region PAGE WRAPPER*/
+.page-wrapper {
+  border-right: none;
+  font-family: PPETRIAL;
+  font-size: 1em;
+  text-align: center;
+  width: 85%;
+  background-color: rgba(0, 100, 100, .3);
+}
+/*#endregion*/
+
+/*#region INTRO*/
+#zen-intro {
+  background: rgba(0, 0, 0, .2);
+}
+/*#endregion*/
+
+/*#region HEADER*/
+header {
+  background-image: url('photos/pineapple-supply-short.jpg');
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding: 10px;
+  padding-top: 2em;
+  text-align: center;
+  text-shadow: 1em 8em 4em rgba(0, 0, 0, .3);
+}
+
+header h1 {
+  font-size: 5em;
+}
+
+header h2 {
+  font-size: 4em;
+}
+
+header h2 abbr {
+  text-decoration: none;
+}
+/*#endregion*/
+
+/*#region SUMMARY*/
+#zen-summary {
+  background-image: url('photos/kelly-jean.jpg');
+  background-position: -10px -150px;
+  background-size: 110%;
+  padding: 1em 1em 19em 1em;
+}
+
+#zen-summary p {
+  font-size: 1.5em;
+  width: 63%;
+}
+
+#zen-summary p:nth-of-type(2) {
+  padding-bottom: 6em;
+}
+/*#endregion*/
+
+/*#region PREAMBLE*/
+#zen-preamble {
+  background-color: rgba(120, 127, 108, .3);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+  margin-left: 3em;
+  padding: .5em;
+  position: absolute;
+  top: 28em;
+  width: 38%;
+}
+
+#zen-preamble h3 {
+  font-size: 1.2em;
+}
+/*#endregion*/
+
+/*#region EXPLANATION*/
+#zen-explanation {
+  background-color: rgba(120, 127, 178, .5);
+  color: white;
+  margin-left: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 70em;
+  width: 35%;
+}
+
+#zen-explanation h3 {
+  font-size: 1.5em;
+}
+
+#zen-explanation p {
+  font-size: 1.3em;
+}
+/*#endregion*/
+
+/*#region PARTICIPATION*/
+#zen-participation {
+  background-image: url('photos/neonbrand.jpg');
+  background-position-y: -8em;
+  background-repeat: no-repeat;
+  background-size: 145%;
+  color: white;
+  display: inline-block;
+  font-size: 1.5em;
+  height: 700px;
+  padding-left: 27em;
+  padding-top: .5em;
+}
+
+#zen-participation h3 {
+  font-size: 1.1em;
+  width: 70%;
+}
+
+#zen-participation p {
+  font-size: .9em;
+  width: 70%;
+}
+
+#zen-participation p:nth-of-type(3) {
+  padding-bottom: 5em;
+}
+
+/*#endregion*/
+
+/*#region BENEFITS*/
+#zen-benefits {
+  background-image: url(photos/annie-spratt.jpg);
+  color: white;
+  float: left;
+  font-size: 1.2em;
+  height: 540px;
+  margin: auto;
+  padding: 1em;
+  padding-top: 0;
+  width: 13%;
+}
+#zen-benefits h3 {
+  font-size: 1.3em;
+}
+
+/*#endregion*/
+
+/*#region REQUIREMENTS*/
+#zen-requirements {
+  background-color: #EDECEA;
+  background-image: url(photos/scott-webb.jpg);
+  background-position-x: 19em;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  font-size: 1.2em;
+  height: 540px;
+  margin: auto;
+  margin-left: 17%;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+#zen-requirements h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+ #zen-requirements p {
+   margin-left: 10em;
+ }
+
+#zen-requirements p:nth-of-type(2) {
+  padding-right: 10em;
+}
+
+#zen-requirements p:nth-of-type(3) {
+  padding-right: 12em;
+}
+
+#zen-requirements p:nth-of-type(4) {
+  padding-right: 12em;
+}
+#zen-requirements p:nth-of-type(5) {
+  width: 50%;
+}
+
+/*#endregion*/
+
+/*#region SIDEBAR*/
+.sidebar {
+  background-color: #3F494A;
+  box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1em;
+  height: 100%;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 15%;
+}
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar h3 {
+  font-size: 1.4em;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 2px 5px;
+  padding: 2px;
+}
+
+.sidebar a {
+  color: #FFDFAF;
+}
+
+.design-name {
+  display: block;
+  font-family: FineCollege;
+  font-size: 1em;
+}
+/*#endregion*/
+
+/*#region FOOTER*/
+footer {
+  background-color: #3F494A;
+  height: 4.5em;
+}
+
+footer a {
+  color: #FFDFAF;
+  display: inline-block;
+  font-family: FineCollege;
+  font-size: 2em;
+  padding: .5em 2.1em;
+}
+/*#endregion*/
+
+/* Photos by:
+  Pineapple Supply Co. on Unsplash
+  Hudson Hintze on Unsplash
+  Kelly Jean on Unsplash
+  NeONBRAND on Unsplash
+  Annie Spratt on Unsplash
+  Scott Webb on Unsplash
+
+/* Fonts by:
+  Fine College Font Family By Galdino Otten © (copyright)
+  Pencil Pete by JOEBOB graphics
